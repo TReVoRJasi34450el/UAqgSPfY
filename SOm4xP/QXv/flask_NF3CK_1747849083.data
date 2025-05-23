@@ -1,7 +1,6 @@
 FROM python:3.11-alpine
 
 WORKDIR /app
-
 # Install dependencies for building some Python packages
 # Check if in Github Actions, if not, change Alpine source and PyPI source to Aliyun
 ARG GITHUB_ACTIONS
